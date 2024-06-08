@@ -1,0 +1,900 @@
+            /* Basit bir stil */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #222831;  
+
+
+            }
+            body::-webkit-scrollbar {
+                display: none;
+                visibility: hidden;
+                opacity: 0
+
+            }
+            .navbar {
+                background-color: #31363F;
+                overflow: hidden;  
+                filter: drop-shadow(1px 2px 5px rgb(255, 255, 255));
+            }
+            .navbar img {
+                float: left;
+                max-width: 46px;
+                filter: drop-shadow(1px 1px 5px rgb(168, 45, 45));
+                margin-right: 15px;
+                margin-left: 5px;
+                margin-bottom: 1px;
+            }
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                background-color: #070F2B;
+                filter: drop-shadow(1px 1px 3px rgb(100, 200, 151));
+                border: #00aeff;
+                border-radius: 15px;
+                border-width: 3px;
+                margin-bottom: 3px;
+                margin-left: 10px;
+            }
+            .navbar a:hover {
+                background-color: #000000;
+                color: white;   
+                filter: drop-shadow(0px 0px 3px rgb(145, 255, 0));
+            }
+            .container {
+                padding: 20px;
+            }
+            a.button {
+                background-color: transparent;
+                border: solid;
+                border-radius: 50px;
+                color: rgb(255, 255, 255);
+                border-color: #00aeff;
+                display: inline-block;
+                padding: 10px 15px;
+                text-decoration: none;
+                cursor: pointer;
+                text-align: center;
+                font-size: 15px;
+                position: relative;
+            }
+            a.button:hover {
+                filter: drop-shadow(0px 1px 3px rgb(0, 122, 131));
+                color: #78d4ff;
+            }
+            .link {
+                color: aquamarine;
+                text-decoration: none;
+            }
+            .ana {
+                color: aquamarine;
+            }
+            .SHS {
+                display: flex;
+                filter: drop-shadow(5px 5px 3px rgb(0, 0, 0));
+            }
+            .invisible {
+                color: transparent;
+            }
+            .hh2 {
+                color: teal;
+            }
+            .hh3 {
+                color: skyblue;
+                padding-left: 4px;
+            }
+            .Joinbtn {
+                background-color: transparent;
+                border-width: 2px;
+                border-style: solid;
+                border-color: goldenrod;
+                border-radius: 5px;
+                font-size: medium;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 5px;
+                margin-bottom: 4px;
+                color: crimson;
+                cursor: pointer;
+                position: relative;
+                top: -5px;
+                left: 600px;
+            }   
+            .Joinbtn:hover {
+                background-color: transparent;
+                border-width: 2px;
+                border-style: solid;
+                border-color: rgb(252, 202, 76);
+                border-radius: 5px;
+                font-size: medium;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 5px;
+                margin-bottom: 4px;
+                color: rgb(250, 24, 69);
+                cursor: pointer;
+                filter: drop-shadow(0px 0px 3px rgb(252, 202, 76));
+            }
+            .box {
+                float: left;
+                margin: 10px;
+                overflow: hidden;
+                background-color: #14171b;
+                width: 450px;
+                height: 300px;
+                border-radius: 15px;
+                border-color: red;
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+            }
+            .box2 {
+                overflow: hidden;
+                background-color: #14171b;
+                width: 450px;
+                height: 300px;
+                border-radius: 15px;
+                border-color: red;
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: relative;
+                right: -840px;
+                top: 10px;
+            }
+            .box3 {
+                overflow: hidden;
+                background-color: #14171b;
+                width: 1842px;
+                right: 20px;
+                height: 125px;
+                border-radius: 15px;
+                border-color: rgb(255, 0, 0);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: relative;
+                top: 315px;
+                filter: drop-shadow(0px -2px 2px rgb(117, 117, 117));
+            }
+            .ortala {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .chatbox {
+                overflow: hidden;
+                scrollbar-color: red;            
+                background-color: #14171b;
+                width: 800px;
+                height: 500px;
+                border-radius: 15px;
+                border-color: rgb(200, 255, 0);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                color: aquamarine;
+            }
+            .chatboxozel {
+                overflow: hidden;
+                scrollbar-color: red;            
+                background-color: #14171b;
+                width: 1800px;
+                height: 650px;
+                border-radius: 15px;
+                border-color: rgb(92, 0, 0);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                color: aquamarine;
+            }
+
+            .odabilgi {
+                overflow: auto;        
+                background-color: transparent;
+                min-width: 750px;
+                max-width: 750;
+                height: 10px;
+                border-radius: 15px;
+                border-width: 2px;
+                border-color: rgb(133, 8, 60);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                bottom: 85px;
+                resize: none;
+                left: 20px;
+                text-align: start;
+                font-size: 17px;
+                color: white;
+            }
+/*ORTA BİLGİSAYAR BOYUTU */
+            @media screen and (max-width: 1280px) and (min-width: 1023px) {
+                .Joinbtn {
+                    background-color: transparent;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-color: goldenrod;
+                    border-radius: 5px;
+                    font-size: medium;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 5px;
+                    color: crimson;
+                    cursor: pointer;
+                    position: relative; 
+                    top: -5px;
+                    left: 595px;
+                }   
+                .Joinbtn:hover {
+                    background-color: transparent;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-color: rgb(252, 202, 76);
+                    border-radius: 5px;
+                    font-size: medium;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    padding: 5px;
+                    margin-bottom: 4px;
+                    color: rgb(250, 24, 69);
+                    cursor: pointer;
+                    filter: drop-shadow(0px 0px 3px rgb(252, 202, 76));
+                }
+                .chatboxozel {
+                    overflow: hidden;
+                    scrollbar-color: red;            
+                    background-color: #14171b;
+                    width: 1160px;
+                    height: 650px;
+                    border-radius: 15px;
+                    border-color: rgb(92, 0, 0);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: fixed;
+                    color: aquamarine;
+                }
+                .box2{
+                    position: relative; 
+                    top: 10px;
+                    right: -190px;
+                }
+                .box3 {
+                    overflow: hidden;
+                    background-color: #14171b;
+                    width: 1190px;
+                    right: 20px;
+                    height: 125px;
+                    border-radius: 15px;
+                    border-color: rgb(255, 0, 0);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: relative;
+                    top: 305px;
+                    filter: drop-shadow(0px -2px 2px rgb(117, 117, 117));
+                }
+                
+                
+                .chatboxozelblr {
+                    overflow: hidden;
+                    scrollbar-color: red;            
+                    background-color: #ff0000;
+                    max-width: 1163px;
+                    height: 650px;
+                    border-radius: 15px;
+                    border-color: rgb(255, 0, 0);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: fixed;
+                    color: aquamarine;
+                    filter: blur(10px);
+                    content: "";
+                    animation: spin 2s linear infinite;
+                    z-index: -1;
+                }
+            }
+            .chatboxozelblr {
+                overflow: hidden;
+                scrollbar-color: red;            
+                background-color: #ff0000;
+                width: 1800px;
+                height: 650px;
+                border-radius: 15px;
+                border-color: rgb(255, 0, 0);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                color: aquamarine;
+                filter: blur(10px);
+                content: "";
+                animation: spin 2s linear infinite;
+                z-index: -1;
+            }
+            .mesajgonder {
+                overflow: auto;        
+                background-color: transparent;
+                min-width: 750px;
+                height: 20px;
+                border-radius: 15px;
+                border-width: 2px;
+                border-color: rgb(255, 174, 0);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                bottom: 185px;
+                resize: none;
+                left: 20px;
+                text-align: start;
+                font-size: 17px;
+                color: white;
+            }
+            .mesajgonder:focus {
+                filter: drop-shadow(0px 0px 2px rgb(255, 238, 0));
+                color: whitesmoke;
+
+            }
+            .mesajgonderozel {
+                overflow: auto;        
+                background-color: transparent;
+                min-width: 970px;
+                height: 20px;
+                border-radius: 15px;
+                border-width: 2px;
+                border-color: rgb(44, 0, 202);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                bottom: 20px;
+                resize: none;
+                left: 20px;
+                text-align: start;
+                font-size: 17px;
+                color: white;
+                background-color: #222831;
+            }
+            .mesajgonderozelblr {
+                overflow: auto;        
+                background-color: transparent;
+                min-width: 970px;
+                height: 20px;
+                border-radius: 15px;
+                border-width: 2px;
+                border-color: rgb(44, 0, 202);
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                background-color: #0300a7;
+                bottom: 20px;
+                resize: none;
+                left: 20px;
+                text-align: start;
+                font-size: 17px;
+                color: white;
+                filter: blur(10px);
+            }
+            .mesajgonder::-webkit-scrollbar {
+                color: transparent;
+                background-color: transparent;
+                max-width: 1px;
+                max-height: 1px;
+            }
+            .odabilgi::-webkit-scrollbar {
+                color: transparent;
+                background-color: transparent;
+                max-width: 1px;
+                max-height: 1px;
+            }
+            .mesajgonderozel::-webkit-scrollbar {
+                color: transparent;
+                background-color: transparent;
+                max-width: 1px;
+                max-height: 1px;
+            }
+            .gonderbtn {
+                overflow: visible;        
+                background-color: transparent;
+                width: 50px;
+                height: 45px;
+                border-radius: 15px;
+                border-color: rgb(255, 174, 0);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 190px;
+                left: 807px;
+                cursor: pointer;
+                background-image: url('gonder.png');
+                background-size: contain; 
+                background-repeat: no-repeat; 
+                background-position: center; 
+            }
+            .gonderbtn:hover {
+                filter: drop-shadow(1px 1px 5px yellow);
+            }
+            .gonderbtnozel {
+                overflow: visible;        
+                background-color: transparent;
+                width: 50px;
+                height: 45px;
+                border-radius: 15px;
+                border-color: rgb(61, 207, 163);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 25px;
+                left: 1050px;
+                cursor: pointer;
+                background-image: url('gonder.png');
+                background-size: contain; 
+                background-repeat: no-repeat; 
+                background-position: center; 
+            }
+            .gonderbtnozel:hover {
+                overflow: visible;        
+                width: 50px;
+                height: 45px;
+                border-radius: 15px;
+                border-color: rgb(141, 255, 221);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 25px;
+                left: 1050px;
+                cursor: pointer;
+                background-image: url('gonder.png');
+                background-size: contain; 
+                background-repeat: no-repeat; 
+                background-position: center; 
+                filter: drop-shadow(1px 1px 3px rgb(41, 255, 154));
+            }
+            .list {
+                overflow: hidden;
+                scrollbar-color: red;            
+                background-color: #14171b;
+                width: 210px;
+                height: 550px;
+                border-radius: 15px;
+                border-color: khaki;
+                border-style: solid;
+                padding: 15px;
+                line-height: 24px;
+                position: fixed;
+                right: 50px;
+            }
+            .list a{
+                color: rgb(255, 0, 221);
+                right: 11.50%;
+                position: fixed;
+            }
+            .genel {
+                color: lime;
+                padding-left: 14px;
+            }
+            .ozel {
+                color: rgb(255, 30, 0);
+                padding-left: 14px;
+            }
+            .rooms{
+                position: relative;
+                top: 19px;
+                display: flex;
+                flex-direction: column;        
+            }
+            .room{
+                border-style: solid;
+                border-color: #970f3c;
+                border-radius: 15px;
+                text-align: center;
+                margin-top: 5px;
+                color: aquamarine;
+                cursor: pointer;
+            }
+            .room:hover{
+                border-style: solid;
+                border-color: #ff0055;
+                border-radius: 15px;
+                text-align: center;
+                margin-top: 5px;
+                color: aquamarine;
+                cursor: pointer;
+                filter: drop-shadow(0px 0px 3px rgb(255, 62, 62));
+            }
+            .odagirisbtn {
+                overflow: visible;        
+                background-color: transparent;
+                width: 80px;
+                height: 35px;
+                border-radius: 15px;
+                border-color: rgb(61, 207, 163);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 90px;
+                left: 820px;
+                cursor: pointer;
+                text-align: center;
+                font-size: 15px;
+                padding: 1px;
+                color: #222831;
+                font-family: Arial, sans-serif;
+            }
+            .odagirisbtn {
+                overflow: visible;        
+                background-color: transparent;
+                width: 80px;
+                height: 35px;
+                border-radius: 15px;
+                border-color: rgb(61, 207, 163);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 90px;
+                left: 820px;
+                cursor: pointer;
+                text-align: center;
+                font-size: 15px;
+                padding: 1px;
+                color: #00e1ff;
+                font-family: Arial, sans-serif;
+            }
+            .odagirisbtn:hover {
+                overflow: visible;        
+                background-color: transparent;
+                width: 80px;
+                height: 35px;
+                border-radius: 15px;
+                border-color: rgb(0, 255, 0);
+                border-style: solid;
+                line-height: 24px;
+                position: fixed;
+                padding: 15px;
+                bottom: 90px;
+                left: 820px;
+                cursor: pointer;
+                text-align: center;
+                font-size: 15px;
+                padding: 1px;
+                color: #d8e7ff;
+                font-family: Arial, sans-serif; 
+                filter: drop-shadow(1px 1px 3px rgb(155, 254, 100) );
+
+            }
+            .gorunmez-oda {
+                background-color: transparent;
+                color: #ffffff;
+                border-color: slateblue;
+                border-radius: 15px;
+                max-height: 20px;
+                overflow: hidden;
+                margin-left: 5px;
+                width: 300px;
+                padding: 5px;
+                resize: none;
+                text-align: center;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                position: fixed;
+                padding: 15px;
+                left: 350px;
+                top: 70px;
+                user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                border-style: solid;
+                border-width: 3px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+/*TELEFON BOYUTU */
+            @media (max-width: 1000px) {
+                .gorunmez-oda {
+                    background-color: transparent;
+                    padding: 5px;
+                    color: #ffffff;
+                    border-color: magenta;
+                    width: 200px;
+                    max-height: 15px;
+                    resize: none;
+                    text-align: center;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                    position: relative;
+                    left: 15px;
+                    top: 0px;
+                    margin-bottom: 4px;
+                    overflow: hidden;
+                    border-radius: 15px;
+                    border-style: solid;
+                    padding: 5px;
+                    padding-inline: 15px;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+
+                .navbar a {
+                    float: left;
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 14.8px;
+                    text-decoration: none;
+                    background-color: #070F2B;
+                    border: 1px;
+                    border-color: #00aeff;
+                    border-style: solid;
+                    border-radius: 5px;
+                    margin-left: 3px;
+                    margin-bottom: 6px;
+                    box-shadow: 0px 0px 5px 0.000000000000000000000000000001px rgb(47, 231, 255);
+                }
+                .navbar img {
+                    float: left;
+                    margin-right: 3px;
+                    max-width: 46px;
+                    filter: drop-shadow(1px 1px 5px red);
+                }
+                .box {
+                    position: relative;
+                    font-size: 15px;
+                    padding: 4px 4px 4px 4px;
+                    right: 4px;
+                    text-align: center;
+                }
+                a.button {
+                    position: relative;
+                    bottom: auto;
+                    right: 180px;
+                }
+                .box2 {
+                    position: relative;
+                    right: -10px;
+                    bottom: auto;
+                    font-size: 15px;
+                    padding: 4px 4px 4px 4px;
+                    text-align: center;
+                }
+                .box3 {
+                    position: relative;
+                    right: -10px;
+                    top: 10px;
+                    font-size: 15px;
+                    padding: 4px 4px 4px 4px;
+                    text-align: center;
+                    width: 450px;
+                }
+                .chatbox {
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 15px;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: relative;
+                }
+                .mesajgonder {
+                    min-width: 240px;
+                    height: 20px;
+                    border-radius: 15px;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: relative;
+                    top: 10px;
+                    resize: none;
+                    left: auto;
+
+                }
+                .gonderbtn{
+                    width: 50px;
+                    height: 45px;
+                    line-height: 24px;
+                    position: relative;
+                    top: 5px;
+                    left: 5px;
+                    cursor: pointer;
+                    background-image: url('gonder.png');
+                    background-size: contain; 
+                    background-repeat: no-repeat; 
+                    background-position: center; 
+                }
+                .list {
+                    position: relative;
+                    width: 260px;
+                    height: 60px;
+                    margin-bottom: 5px;
+                    padding-bottom: 10px;
+                    padding-top: 0px;
+                    left: 15px;
+                    display: flex;
+                    overflow: auto;
+                    scrollbar-width: none;
+                    overflow-y: hidden;
+                }
+                .list a {
+                    position: absolute;
+                    left: 1px;
+                    text-align: center;
+                    width: 150px;
+                }
+                .rooms{
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .list::-webkit-scrollbar {
+                    display: none;
+                    visibility: hidden;
+                    opacity: 0
+
+                }
+                .room{
+                    border-style: solid;
+                    border-color: #970f3c;
+                    border-radius: 15px;
+                    text-align: center;
+                    padding: 3px;
+                    margin-left: 3px;
+                    left: -8px;
+                    position: relative;
+                }
+                .chatboxozel {
+                    overflow: hidden;
+                    scrollbar-color: red;            
+                    background-color: #14171b;
+                    width: 300px;
+                    height: 200px;
+                    border-radius: 15px;
+                    border-color: rgb(92, 0, 0);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                }
+                .chatboxozelblr {
+                    width: 300px;
+                    height: 200px;
+                }
+                .gonderbtnozel {
+                    overflow: visible;        
+                    background-color: transparent;
+                    width: 50px;
+                    height: 45px;
+                    border-radius: 15px;
+                    border-color: rgb(61, 207, 163);
+                    border-style: solid;
+                    line-height: 24px;
+                    position: relative;
+                    top: 145px;
+                    left: 280px;
+                    cursor: pointer;
+                    background-image: url('gonder.png');
+                    background-size: contain; 
+                    background-repeat: no-repeat; 
+                    background-position: center; 
+                }
+                .gonderbtnozel:hover {
+                    overflow: visible;        
+                    background-color: transparent;
+                    width: 50px;
+                    height: 45px;
+                    border-radius: 15px;
+                    border-color: rgb(161, 255, 227);
+                    border-style: solid;
+                    line-height: 24px;
+                    position: relative;
+                    top: 145px;
+                    left: 280px;
+                    cursor: pointer;
+                    background-image: url('gonder.png');
+                    background-size: contain; 
+                    background-repeat: no-repeat; 
+                    background-position: center; 
+                }
+                .mesajgonderozel {
+                    overflow: auto;        
+                    background-color: transparent;
+                    min-width: 240px;
+                    height: 20px;
+                    border-radius: 15px;
+                    border-width: 2px;
+                    border-color: rgb(44, 0, 202);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                    position: relative;
+                    top: 200px;
+                    resize: none;
+                    left: 0px;
+                    text-align: start;
+                    font-size: 17px;
+                    color: white;
+                    background-color: #222831;
+                }
+                .mesajgonderozelblr {
+                    position: relative;
+                    top: 252px;
+                    overflow: auto;        
+                    background-color: transparent;
+                    min-width: 10px;
+                    left: 0px;
+                    height: 20px;
+                    width: 240px;
+                    border-radius: 15px;
+                    border-width: 2px;
+                    border-color: rgb(44, 0, 202);
+                    border-style: solid;
+                    padding: 15px;
+                    line-height: 24px;
+                    background-color: #0300a7;
+                    resize: none;
+                    text-align: start;
+                    font-size: 17px;
+                    color: white;
+                    filter: blur(10px);
+                }
+                .odabilgi {
+                    min-width: 220px;
+                    position: relative;
+                    top: 250px;
+                    left: 0;
+                }
+                .odagirisbtn {
+                    overflow: visible;        
+                    background-color: transparent;
+                    width: 80px;
+                    height: 35px;
+                    border-radius: 15px;
+                    border-color: rgb(61, 207, 163);
+                    border-style: solid;
+                    line-height: 24px;
+                    position: relative;
+                    padding: 15px;
+                    top: 72px;
+                    left: 205px;
+                    cursor: pointer;
+                    text-align: center;
+                    font-size: 15px;
+                    padding: 1px;
+                    font-family: monospace;
+                    color: white;
+                }
+                .odagirisbtn:hover {
+                    overflow: visible;        
+                    background-color: transparent;
+                    width: 80px;
+                    height: 35px;
+                    border-radius: 15px;
+                    border-color: rgb(61, 207, 163);
+                    border-style: solid;
+                    line-height: 24px;
+                    position: relative;
+                    padding: 15px;
+                    top: 72px;
+                    left: 205px;
+                    cursor: pointer;
+                    text-align: center;
+                    font-size: 15px;
+                    padding: 1px;
+                    font-family: monospace;
+                    color: white;
+                    filter: drop-shadow(1px 1px 3px rgb(155, 255, 100));
+                }
+              }
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHHHS</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="navbar">
+        <img src="logo.png" alt="logo">
+        <a href="ana">Ana Sayfa</a>
+        <a href="genel">Genel</a>
+        <a href="syf2">Özel</a>
+    </div>
+</head>
+<body>  
+
+    <div class="container">
+        <div class="ana" id="ana" style="display: block;">
+            <div class="SHS">
+                <h2 class="hh2">Shaan</h2><h2 class="hh3">Studios</h2>
+            </div>
+
+                <div class="box">
+                    <div>
+                        <a class="title">Merhabalar</a><br>
+                        <a class="title">Buraya baktığın için teşekkürler</a><br>
+                        <a class="title">Sitemizin amacı kısaca özel sohbetler oluşturmaktır</a><br>
+                        <a class="title">Sohbet odaları genel ve özel olarak ayrılır</a><br>
+                        <a class="title">Genel odaların listesi bulunmaktadır isteyen katılabilir</a><br>
+                        <a class="title">Özel odalar ise mail veya discord aracılığı ile verilir</a><br>
+                        <a class="title">Özel odalarda konuşulanlar gizli kalacaktır</a><br>
+                        <a class="title">Kayıt işlemleri discord aracılığı ile sadece mr.shaan tarafından yapılmaktadır</a><br>
+                        <a class="title">Sitemizdeki odalar yakın zamanda açılacaktır</a><br>
+                        <a class="button" href="https://discord.gg/Bw9cDT3xMy" target="_blank">Discord</a>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div>
+                        <a class="ortala">• Site Hakkında •</a>
+                        <a class="title">Sitenin kurucusunun adı Mr.Shaan</a><br>
+                        <a class="title">Siteye sadece rf.gd ve 42web.io uzantılarıyla girilebilir</a><br>
+                        <a class="title">Sunulan hizmet whatsapp veya Discord'a benzemektedir tek farkı buradaki kullanıcılar bilinmemektedir</a><br>
+                        <a class="title">Site üzerinde oda oluşturmak için Discord sunucumuzdaki yetkililerle konuşabilir veya mail atabilirsiniz (discord üzerinden daha hızlı cevap verilir)</a><br>
+                    </div>
+                </div>  
+                <div class="box3">
+                    <div>
+                        <a class="ortala">• İletişim Bilgileri •</a><br>
+                        <a class="title">Mailimiz: destek.rimmed786@passinbox.com <br>Discord: mr.shaan</a><br>
+                        <a class="link" target="_blank" href="https://discord.gg/Bw9cDT3xMy">Discrod Sunucumuz: https://discord.gg/Bw9cDT3xMy</a>
+                    </div>
+                </div>
+
+            </div>
+        <!-- Sayfa 1 -->
+        <div id="genel" style="display: none;">
+            
+            <div class="SHS">
+                <h2 class="hh2">Shaan</h2><h2 class="hh3">Studios</h2><h2 class="genel">Genel Odalar</h2>
+            </div>
+            <div>
+            <textarea class="gorunmez-oda" name="room-name" id="room-name"
+            readonly>Seçilen Oda Burada Gözükecek </textarea>  
+            <input class="Joinbtn" type="submit" value="Baglan" onclick="JoinRoom()">
+            </div>
+
+            <div class="list">
+                <a class="title">• Odalar •</a>
+                <div id="odalargenek" class="rooms">
+                    <div class="room">Oda-1</div>
+                    <div class="room">Oda-2</div>
+                    <div class="room">Oda-3</div>
+                    <div class="room">Oda-4</div>
+                    <div class="room">Oda-5</div>
+                    <div class="room">Oda-6</div>
+                    <div class="room">Oda-7</div>
+                    <div class="room">Oda-8</div>
+                </div>
+            </div>
+            <div id="chatbox" class="chatbox">    
+
+        </div>
+            <!--                    <label for="name">Adınız:</label>
+                                <input type="text" id="name" name="name" required>-->
+                            <textarea class="mesajgonder" id="message" name="message"  required placeholder="Mesajınız.." oninput="checkLength()"></textarea>
+                            <input class="gonderbtn" type="submit" value="" onclick="sendMessage()">
+
+            
+        </div>
+        <!-- Sayfa 2 -->
+        <div id="syf2" style="display: none;">
+              
+            <div class="SHS">
+                <h2 class="hh2">Shaan</h2><h2 class="hh3">Studios</h2><h2 class="ozel">Özel Odalar</h2>
+            </div>
+            <div class="chatboxozelblr"> </div>
+            <div class="chatboxozel">
+                <a>KullanıcıAdı:başka mesaj..</a><br>
+                <a>KullanıcıAdı:başka mesaj..</a><br>
+                <a>KullanıcıAdı:başka mesaj..</a><br>
+                <a>KullanıcıAdı:başka mesaj..</a><br>
+                <a>KullanıcıAdı:başka mesaj..</a><br>
+<!--                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" name="name" required>-->
+        </div>
+                <textarea class="odabilgi" id="message" name="message" required placeholder="OdaIDsi giriniz.." oninput="checkLength()"></textarea>
+                <div>
+                <div class="mesajgonderozelblr"></div>
+                <textarea class="mesajgonderozel" id="message" name="message"  required placeholder="Mesajınız.." oninput="checkLength()"></textarea>
+        </div>
+                <input class="gonderbtnozel" type="submit" value="">
+                <button class="odagirisbtn">Baglan</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
